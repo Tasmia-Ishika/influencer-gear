@@ -1,3 +1,4 @@
+/* body */
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -122,5 +123,24 @@ body{
     padding-bottom: 20px;
     margin-top: 50px;
 }
- 
-  
+/* for phone */
+@media only screen and (max-width:688px){
+   .half-width,.product, .new-container {       
+   width: 100%;
+   grid-template-columns: repeat(1, 1fr);
+   flex-direction: column;
+}
+}
+
+/* for tablet */
+@media only screen and (min-width: 688px) and (max-width:992px){
+    .half-width, .products{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        
+        }
+        .new-container{
+      grid-template-columns: repeat(1, 1fr);
+        }
+    }
