@@ -32,7 +32,7 @@ body{
     }
     .link-button{
         text-decoration: none;
-        background-image:linear-gradient(mediumvioletred, rgb(241, 62, 176));
+        background-image:linear-gradient(mediumvioletred, rgb(209, 52, 152));
         padding: 10px 40px;
         margin-bottom: 20px;
         color: white;
@@ -41,11 +41,9 @@ body{
     }
     .link-button:hover{
         position: absolute;
-        display: flex ;
-        border: 0;
-        text-decoration: 0;
-        margin: 0;
- }
+        display: -moz-inline-stack ;
+        color: black;
+     }
     .fa-arrow-right{
         padding-left: 10px;
     }
@@ -64,6 +62,7 @@ body{
         grid-template-columns: repeat(3, 1fr);
         grid-column-gap: 24px;
         grid-row-gap: 24px;
+        padding-bottom: 50px;
     }
       .product .product-banner img{
           width: 300px;
@@ -97,4 +96,19 @@ body{
       border-radius: 10px;
       box-shadow: 10px 10px 40px rgb(240, 232, 232);
   }
+  #button{
+    text-decoration: none;
+    background-image:linear-gradient(mediumvioletred, rgb(209, 52, 152));
+    padding: 10px 40px;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 700;
+    border-radius: 50px;
+    text-align: right;
+  }
+  #button:hover{
+    position: absolute;
+    display: -moz-inline-stack ;
+    color: black;
+ }
   
